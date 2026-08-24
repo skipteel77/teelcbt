@@ -13,7 +13,9 @@ const links = [
 export default function Header() {
   const [open, setOpen] = useState(false)
   const { pathname } = useLocation()
-  useEffect(() => setOpen(false), [pathname])
+  useEffect(() => {
+    setOpen(false)
+  }, [pathname])
 
   return (
     <header className="site-header">
