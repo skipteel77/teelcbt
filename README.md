@@ -36,7 +36,7 @@ Connect the GitHub repo to Cloudflare Pages and use:
 - Build command: `npm run build`
 - Build output directory: `dist`
 
-`public/_redirects` is included so React Router routes such as `/about` and `/faq` resolve correctly on a static host.
+`wrangler.jsonc` sets `not_found_handling` to `single-page-application` so React Router routes such as `/about` and `/faq` resolve correctly on Cloudflare. Do not use `public/_redirects` with `/* /index.html 200`; Cloudflare rejects that rule as an infinite loop.
 
 ## Where to edit things
 
