@@ -6,7 +6,7 @@ export default function Home() {
     <section className="hero">
       <div className="container hero-grid">
         <div className="hero-copy">
-          <h1 className="display">Helping you move<br/>forward with <span>clarity</span><br/>and confidence.</h1>
+          <h1 className="display">Helping you move<br/>forward with <span>clarity</span><br/>and <span>confidence</span>.</h1>
           <p>Evidence-based psychotherapy for adults navigating anxiety, stress, life transitions, and the patterns that can keep them feeling stuck.</p>
           <div className="hero-actions">
             <Link className="btn btn-primary" to="/contact">Schedule a Consultation</Link>
