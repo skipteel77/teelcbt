@@ -9,23 +9,23 @@ export default function Home() {
       <div className="container hero-grid">
         <div className="hero-copy">
           <h1 className="display">Helping you move<br/>forward with <span>clarity</span><br/>and <span>confidence</span>.</h1>
-          <p>Evidence-based psychotherapy for adults navigating anxiety, stress, life transitions, and the patterns that can keep them feeling stuck.</p>
+          <p>Evidence-based psychotherapy for children, teens, and adults navigating anxiety, stress, life transitions, and the patterns that keep them feeling stuck.</p>
           <div className="hero-actions">
             <Link className="btn btn-primary" to="/contact">Schedule a Consultation</Link>
             <Link className="btn btn-secondary" to="/approach">Learn About My Approach</Link>
           </div>
-          <div className="hero-credential"><span className="leaf" aria-hidden="true"></span><div><strong>Dr. Karen Teel</strong><small>Psychotherapy grounded in evidence and collaboration</small></div></div>
+          <div className="hero-credential"><span className="leaf" aria-hidden="true"></span><div><strong>Karen Teel, PhD.</strong><small>Licensed Psychologist</small></div></div>
         </div>
       </div>
     </section>
 
     <section className="soft-strip">
       <div className="container">
-        <h2 className="strip-title">You don’t have to figure everything out on your own.</h2>
+        <h2 className="strip-title">We can learn and practice skills together.</h2>
         <div className="three-grid">
-          <article className="feature"><div className="icon-badge"><LeafIcon/></div><div><h3 className="h3">Anxiety &amp; Stress</h3><p>Quiet constant worry and build practical ways to respond differently to stress.</p></div></article>
+          <article className="feature"><div className="icon-badge"><LeafIcon/></div><div><h3 className="h3">Anxiety &amp; Stress</h3><p>Quiet the constant worry and develop practical ways to respond differently to stress.</p></div></article>
           <article className="feature"><div className="icon-badge"><CompassIcon/></div><div><h3 className="h3">Life Transitions</h3><p>Navigate change, uncertainty, relationships, career decisions, and new stages of life.</p></div></article>
-          <article className="feature"><div className="icon-badge"><TargetIcon/></div><div><h3 className="h3">Patterns That Keep You Stuck</h3><p>Understand the connection between thoughts, emotions, and behaviors—and learn how to change it.</p></div></article>
+          <article className="feature"><div className="icon-badge"><TargetIcon/></div><div><h3 className="h3">Understand the connections between your thoughts, emotions, and behaviors - and learn how to change them.</p></div></article>
         </div>
       </div>
     </section>
