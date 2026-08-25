@@ -25,7 +25,7 @@ export default function Home() {
         <div className="three-grid">
           <article className="feature"><div className="icon-badge"><LeafIcon/></div><div><h3 className="h3">Anxiety &amp; Stress</h3><p>Quiet the constant worry and develop practical ways to respond differently to stress.</p></div></article>
           <article className="feature"><div className="icon-badge"><CompassIcon/></div><div><h3 className="h3">Life Transitions</h3><p>Navigate change, uncertainty, relationships, career decisions, and new stages of life.</p></div></article>
-          <article className="feature"><div className="icon-badge"><TargetIcon/></div><div><h3 className="h3">Understand the connections between your thoughts, emotions, and behaviors - and learn how to change them.</p></div></article>
+          <article className="feature"><div className="icon-badge"><TargetIcon/></div><div><h3 className="h3">Patterns That Keep You Stuck</h3><p>Understand the connections between your thoughts, emotions, and behaviors - and learn how to change them.</p></div></article>
         </div>
       </div>
     </section>
