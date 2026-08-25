@@ -34,7 +34,7 @@ export default function Home() {
         <div className="image-card"><img src="/assets/office.png" alt="Calm psychotherapy office" /></div>
         <div className="copy"><div className="eyebrow">About Dr. Teel</div><h2 className="h2">Therapy should be both <span className="sage-text">supportive and useful.</span></h2>
           <p>I provide a collaborative environment where we can understand what’s getting in your way and develop practical strategies for meaningful change.</p>
-          <p>My approach combines evidence-based treatment with therapy tailored to you as an individual—not simply a diagnosis or set of symptoms.</p>
+          <p>My approach combines evidence-based treatment with therapy tailored to you as an individual - not simply a diagnosis or set of symptoms.</p>
           <Link className="text-link" to="/about">Meet Dr. Teel →</Link>
         </div>
       </div>
@@ -44,12 +44,20 @@ export default function Home() {
       <div className="container">
         <div className="cbt-top">
           <div><div className="eyebrow">Cognitive Behavioral Therapy</div><h2 className="h2">What is CBT?</h2><p className="lead">CBT helps us understand how thoughts, feelings, and behaviors influence one another. Together, we identify patterns that aren’t serving you and develop practical ways to respond differently.</p></div>
-          <div className="cbt-loop" aria-label="Thoughts feelings behaviors relationship">
-            <div className="loop-node"><div className="loop-circle"><BrainIcon/></div><span>Thoughts</span></div>
-            <div className="swap">↔</div>
-            <div className="loop-node"><div className="loop-circle"><HeartIcon/></div><span>Feelings</span></div>
-            <div className="swap">↔</div>
-            <div className="loop-node"><div className="loop-circle"><PersonIcon/></div><span>Behaviors</span></div>
+          <div className="cbt-loop" aria-label="Thoughts, feelings, and behaviors influence one another in a cycle">
+            <svg className="cbt-loop-arrows" viewBox="0 0 360 330" fill="none" aria-hidden="true">
+              <defs>
+                <marker id="cbt-arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
+                  <path d="M0 0 L12 6 L0 12 Z" fill="currentColor" />
+                </marker>
+              </defs>
+              <path d="M250 20.8 A172 172 0 0 1 351.1 196.1" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" markerEnd="url(#cbt-arrow)" />
+              <path d="M281.1 317.1 A172 172 0 0 1 78.9 317.1" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" markerEnd="url(#cbt-arrow)" />
+              <path d="M8.9 196.1 A172 172 0 0 1 110 20.8" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" markerEnd="url(#cbt-arrow)" />
+            </svg>
+            <div className="loop-node is-thoughts"><div className="loop-circle"><BrainIcon/></div><span>Thoughts</span></div>
+            <div className="loop-node is-feelings"><div className="loop-circle"><HeartIcon/></div><span>Feelings</span></div>
+            <div className="loop-node is-behaviors"><div className="loop-circle"><PersonIcon/></div><span>Behaviors</span></div>
           </div>
         </div>
         <div className="process">
