@@ -4,6 +4,7 @@ import { LeafIcon, CompassIcon, TargetIcon, BrainIcon, HeartIcon, PersonIcon, Se
 export default function Home() {
   return <>
     <section className="hero">
+      <div className="hero-media"><img src="/assets/hero-karen.png" alt="Warm portrait placeholder for Dr. Karen Teel" /></div>
       <div className="container hero-grid">
         <div className="hero-copy">
           <h1 className="display">Helping you move<br/>forward with <span>clarity</span><br/>and <span>confidence</span>.</h1>
@@ -14,7 +15,6 @@ export default function Home() {
           </div>
           <div className="hero-credential"><span className="leaf" aria-hidden="true"></span><div><strong>Dr. Karen Teel</strong><small>Psychotherapy grounded in evidence and collaboration</small></div></div>
         </div>
-        <div className="hero-media"><img src="/assets/hero-karen.png" alt="Warm portrait placeholder for Dr. Karen Teel" /></div>
       </div>
     </section>
 
