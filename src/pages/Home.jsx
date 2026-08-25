@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { LeafIcon, CompassIcon, TargetIcon, BrainIcon, HeartIcon, PersonIcon, SearchIcon, SproutIcon, SunIcon } from '../components/Icons'
+import CtaBranch from '../components/CtaBranch'
 
 export default function Home() {
   return <>
@@ -29,7 +30,7 @@ export default function Home() {
       </div>
     </section>
 
-    <section className="section white">
+    <section className="section white compact-about">
       <div className="container split">
         <div className="image-card"><img src="/assets/office.png" alt="Calm psychotherapy office" /></div>
         <div className="copy"><div className="eyebrow">About Dr. Teel</div><h2 className="h2">Therapy should be both <span className="sage-text">supportive and useful.</span></h2>
@@ -86,6 +87,7 @@ export default function Home() {
     </section>
 
     <section className="cta">
+      <CtaBranch />
       <div className="container cta-grid"><div><h2 className="h2">Ready to take the next step?</h2><p>Finding the right therapist matters. A brief consultation gives us an opportunity to talk about what you’re looking for and determine whether working together feels like a good fit.</p></div><div className="cta-actions"><Link className="btn btn-primary" to="/contact">Schedule a Consultation</Link><small>Have a question first? <Link to="/contact">Contact Dr. Teel →</Link></small></div></div>
     </section>
   </>
