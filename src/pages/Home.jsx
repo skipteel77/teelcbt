@@ -34,7 +34,7 @@ export default function Home() {
       <div className="container split">
         <div className="image-card"><img src="/assets/office.png" alt="Calm psychotherapy office" /></div>
         <div className="copy"><div className="eyebrow">About Dr. Teel</div><h2 className="h2">Therapy should be both <span className="sage-text">supportive and useful.</span></h2>
-          <p>I provide a collaborative environment where we can understand what’s getting in your way and develop practical strategies for meaningful change.</p>
+          <p>I’m Dr. Karen Teel, a Columbia University - trained psychologist specializing in Cognitive Behavioral Therapy. I provide a collaborative and compassionate environment where we can understand what’s getting in your way and develop practical strategies for meaningful change.</p>
           <p>My approach combines evidence-based treatment with therapy tailored to you as an individual - not simply a diagnosis or set of symptoms.</p>
           <Link className="text-link" to="/about">Meet Dr. Teel →</Link>
         </div>
