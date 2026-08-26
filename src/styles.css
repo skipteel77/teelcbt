@@ -193,15 +193,15 @@ button, input, textarea { font: inherit; }
 .contact-line strong { display:block; color:var(--teal-dark); }
 .contact-line span { color:#647075; font-size:.92rem; }
 .form { background:white; border:1px solid #dce3db; padding:30px; box-shadow:var(--shadow); }
-.form-grid { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
-.field { display:grid; gap:7px; }
-.field.full { grid-column:1/-1; }
-.field label { font-size:.78rem; font-weight:600; color:#536268; }
-.field input,.field textarea { width:100%; border:1px solid #cfd8cf; background:#fdfcf9; min-height:48px; padding:11px 12px; color:#37464a; outline:none; }
-.field textarea { min-height:145px; resize:vertical; }
-.field input:focus,.field textarea:focus { border-color:var(--sage); box-shadow:0 0 0 3px rgba(145,164,131,.15); }
-.form-note { font-size:.76rem; color:#788184; margin:15px 0; }
-.form-status { min-height:24px; color:var(--sage-dark); font-size:.85rem; margin-top:10px; }
+.form-note { font-size:.76rem; color:#788184; margin:15px 0 0; }
+.contact-widget-card p { color:#647075; }
+.contact-widget-card .spwidget-button-wrapper { margin-top:24px; }
+
+/* SimplePractice contact form widget (vendor snippet styles) */
+.spwidget-button-wrapper { text-align:center; }
+.spwidget-button { display:inline-block; padding:6px 12px; color:#1371C8; background:#fff; border:1px solid #1371C8; border-radius:4px; font-size:14px; font-weight:600; text-decoration:none; }
+.spwidget-button:hover { background:#fff; color:#0F5AA0; }
+.spwidget-button:active { color:rgba(255,255,255,.75) !important; box-shadow:0 1px 3px rgba(0,0,0,.15) inset; }
 
 @media (max-width: 900px) {
   .container { width:min(100% - 32px,var(--max)); }
@@ -239,8 +239,6 @@ button, input, textarea { font: inherit; }
   .display { font-size:3.25rem; }
   .hero-actions { display:grid; }
   .btn { width:100%; }
-  .form-grid { grid-template-columns:1fr; }
-  .field.full { grid-column:auto; }
   .quote { padding-left:0; grid-template-columns:35px 1fr; }
   .quote blockquote { font-size:1.45rem; }
 }

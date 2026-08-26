@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
-import { LeafIcon, CompassIcon, TargetIcon, BrainIcon, HeartIcon, PersonIcon, SearchIcon, SproutIcon, SunIcon } from '../components/Icons'
+import { LeafIcon, CompassIcon, TargetIcon, SearchIcon, SproutIcon, SunIcon } from '../components/Icons'
+import CbtLoop from '../components/CbtLoop'
 import CtaBranch from '../components/CtaBranch'
 
 export default function Home() {
@@ -45,21 +46,7 @@ export default function Home() {
       <div className="container">
         <div className="cbt-top">
           <div><div className="eyebrow">Cognitive Behavioral Therapy</div><h2 className="h2">What is CBT?</h2><p className="lead">CBT helps us understand how thoughts, feelings, and behaviors influence one another. Together, we identify patterns that aren’t serving you and develop practical ways to respond differently.</p></div>
-          <div className="cbt-loop" aria-label="Thoughts, feelings, and behaviors influence one another in a cycle">
-            <svg className="cbt-loop-arrows" viewBox="0 0 360 330" fill="none" aria-hidden="true">
-              <defs>
-                <marker id="cbt-arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto" markerUnits="userSpaceOnUse">
-                  <path d="M0 0 L12 6 L0 12 Z" fill="currentColor" />
-                </marker>
-              </defs>
-              <path d="M250 20.8 A172 172 0 0 1 351.1 196.1" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" markerEnd="url(#cbt-arrow)" />
-              <path d="M281.1 317.1 A172 172 0 0 1 78.9 317.1" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" markerEnd="url(#cbt-arrow)" />
-              <path d="M8.9 196.1 A172 172 0 0 1 110 20.8" stroke="currentColor" strokeWidth="1.7" strokeLinecap="round" markerEnd="url(#cbt-arrow)" />
-            </svg>
-            <div className="loop-node is-thoughts"><div className="loop-circle"><BrainIcon/></div><span>Thoughts</span></div>
-            <div className="loop-node is-feelings"><div className="loop-circle"><HeartIcon/></div><span>Feelings</span></div>
-            <div className="loop-node is-behaviors"><div className="loop-circle"><PersonIcon/></div><span>Behaviors</span></div>
-          </div>
+          <CbtLoop />
         </div>
         <div className="process">
           <div className="process-item"><div className="process-icon"><SearchIcon/></div><div><h3 className="h3">Understand</h3><p>Recognize the patterns contributing to how you’re feeling.</p></div></div>
