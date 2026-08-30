@@ -68,8 +68,10 @@ button, input, textarea { font: inherit; }
 .hero-credential { margin-top:28px; display:flex; align-items:center; gap:11px; color:var(--teal-dark); }
 .hero-credential .leaf { width:19px; height:28px; background:var(--sage); border-radius:100% 0 100% 0; transform:rotate(35deg); opacity:.85; }
 .hero-credential small { display:block; color:#657075; margin-top:2px; }
-.hero-media { position:absolute; top:0; right:0; bottom:0; left:calc(max(24px, (100vw - var(--max)) / 2) + min(var(--max), 100vw - 48px) * 0.47); z-index:1; }
-.hero-media img { width:100%; height:100%; max-width:none; object-fit:cover; object-position:left center; }
+.hero-media { position:absolute; top:0; right:0; bottom:0; left:calc(max(24px, (100vw - var(--max)) / 2) + min(var(--max), 100vw - 48px) * 0.24); z-index:1; }
+.hero-media img { width:100%; height:100%; max-width:none; object-fit:cover; object-position:74% center; }
+/* Soften the join so the photo dissolves into the cream copy column. */
+.hero-media::after { content:""; position:absolute; inset:0; pointer-events:none; background:linear-gradient(90deg, #faf8f3 0%, #faf8f3 10%, rgba(250,248,243,.78) 26%, rgba(250,248,243,.32) 44%, rgba(250,248,243,0) 62%); }
 
 .soft-strip { background:linear-gradient(90deg,#f0f4ed,#f7f8f4); padding:20px 0 40px; }
 .strip-title { font-family:var(--serif); color:var(--teal-dark); font-size:1.75rem; text-align:center; margin:0 0 27px; }
@@ -215,7 +217,8 @@ button, input, textarea { font: inherit; }
   .hero-grid { grid-template-columns:1fr; order:-1; }
   .hero-copy { padding:62px 0 36px; }
   .hero-media { position:relative; inset:auto; left:auto; height:520px; width:auto; margin-inline:-16px; }
-  .hero-media img { object-position:center top; }
+  .hero-media::after { display:none; }
+  .hero-media img { object-position:right center; }
   .three-grid,.steps,.cards,.value-row,.footer-grid { grid-template-columns:1fr; }
   .feature,.step,.value { border-right:0; border-bottom:1px solid #d4ddd2; padding-inline:0; }
   .feature:last-child,.step:last-child,.value:last-child { border-bottom:0; }

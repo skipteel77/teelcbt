@@ -13,7 +13,7 @@ export default function About() {
             <p>Dr. Teel earned her Ph.D. in clinical psychology from Teachers College, Columbia University, and completed her Postdoctoral Fellowship training at the New York State Psychiatric Institute (NYSPI) of Columbia University Medical Center. She is an Adjunct Assistant Professor of Psychology in Education at Teachers College, Columbia University, and continues to work on research protocols at NYSPI. Dr. Teel also holds a M.A. degree in Developmental Psychology with a concentration in Risk, Resilience and Development, from Teachers College, Columbia University. Dr. Teel has co-authored articles in journals including “Developmental Psychology”, and a chapter in “Treating Adolescent Depression.”</p>
           </div>
           <div className="image-card">
-            <img src="/assets/hero-karen.png" alt="Portrait placeholder for Dr. Karen Teel"/>
+            <img src="/assets/about-karen.jpg" alt="Dr. Karen Teel at her desk"/>
           </div>
         </div>
         <div className="value-row">
