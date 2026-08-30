@@ -149,7 +149,9 @@ button, input, textarea { font: inherit; }
 .footer-grid > * { padding:0 32px; border-right:1px solid rgba(255,255,255,.18); }
 .footer-grid > :first-child { padding-left:0; }
 .footer-grid > :last-child { padding-right:0; border-right:0; }
-.footer-brand img { width:195px; height:60px; object-fit:contain; object-position:left; filter:brightness(0) invert(1); opacity:.95; }
+.footer-logo { display:flex; align-items:center; gap:12px; text-decoration:none; margin-bottom:8px; }
+.footer-logo-mark { width:52px; height:52px; object-fit:contain; flex:0 0 52px; }
+.footer-logo-word { height:26px; width:auto; filter:brightness(0) invert(1); opacity:.96; }
 .footer-brand p { font-size:.8rem; color:#dbe6e1; margin:5px 0; }
 .footer-title { font-family:var(--serif); font-size:1.15rem; margin:3px 0 13px; color:white; }
 .footer-links { display:grid; gap:7px; }

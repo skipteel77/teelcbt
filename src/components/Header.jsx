@@ -20,8 +20,8 @@ export default function Header() {
   return (
     <header className="site-header">
       <div className="container nav">
-        <Link className="brand" to="/" aria-label="Dr. Teel CBT home">
-          <img src="/assets/logo-horizontal.png" alt="Dr. Teel CBT" />
+        <Link className="brand" to="/" aria-label="Teel CBT home">
+          <img src="/assets/logo-horizontal.png" alt="Teel CBT" />
         </Link>
         <button className="menu-btn" aria-label="Toggle navigation" aria-expanded={open} onClick={() => setOpen(v => !v)}>☰</button>
         <nav className={`nav-links ${open ? 'open' : ''}`} aria-label="Primary navigation">

@@ -7,7 +7,10 @@ export default function Footer() {
       <div className="container">
         <div className="footer-grid">
           <div className="footer-brand">
-            <img src="/assets/logo-horizontal.png" alt="Dr. Teel CBT" />
+            <Link className="footer-logo" to="/" aria-label="Teel CBT home">
+              <img className="footer-logo-mark" src="/assets/logo-mark.png" alt="" />
+              <img className="footer-logo-word" src="/assets/logo-wordmark.png" alt="Teel CBT" />
+            </Link>
             <p>Dr. Karen Teel</p>
             <p>Evidence-based psychotherapy</p>
           </div>
@@ -27,7 +30,7 @@ export default function Footer() {
           </div>
           <div className="footer-note">Evidence-based care.<br/>Compassionate support.<br/>Lasting change.</div>
         </div>
-        <div className="footer-bottom"><span>© 2026 Dr. Teel CBT. Draft site.</span><span>Privacy Policy &nbsp;&nbsp; Notice of Privacy Practices</span></div>
+        <div className="footer-bottom"><span>© 2026 Teel CBT. Draft site.</span><span>Privacy Policy &nbsp;&nbsp; Notice of Privacy Practices</span></div>
       </div>
     </footer>
   )
