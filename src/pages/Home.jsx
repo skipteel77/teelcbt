@@ -69,7 +69,7 @@ export default function Home() {
     <section className="quote-section">
       <div className="container quote-grid">
         <div className="quote"><div className="quote-mark">“</div><div><blockquote>My goal isn’t simply to help you feel better during our sessions. It’s to help you develop the understanding and skills that allow you to create meaningful change in your life.</blockquote><cite>— Dr. Karen Teel</cite></div></div>
-        <div className="quote-image"><img src="/assets/plant-books.png" alt="Eucalyptus branches beside a stack of books" /></div>
+        <div className="quote-image"><img src="/assets/quote-plant.jpg" alt="A leafy plant beside a sunlit couch in the office" /></div>
       </div>
     </section>
 
