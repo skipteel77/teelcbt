@@ -6,7 +6,7 @@ import CtaBranch from '../components/CtaBranch'
 export default function Home() {
   return <>
     <section className="hero">
-      <div className="hero-media"><img src="/assets/hero-karen.png" alt="Warm portrait placeholder for Dr. Karen Teel" /></div>
+      <div className="hero-media"><img src="/assets/hero-karen.jpg" alt="Dr. Karen Teel seated in her office" /></div>
       <div className="container hero-grid">
         <div className="hero-copy">
           <h1 className="display">Helping you move<br/>forward with <span>clarity</span><br/>and <span>confidence</span>.</h1>
