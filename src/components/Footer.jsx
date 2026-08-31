@@ -12,7 +12,7 @@ export default function Footer() {
               <img className="footer-logo-word" src="/assets/logo-wordmark.png" alt="Teel CBT" />
             </Link>
             <p>Dr. Karen Teel</p>
-            <p>Evidence-based psychotherapy</p>
+            <p>Evidence-based psychotherapy for anxiety</p>
           </div>
           <div>
             <div className="footer-title">Explore</div>
