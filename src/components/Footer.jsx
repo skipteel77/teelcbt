@@ -61,18 +61,22 @@ export default function Footer() {
               </div>
             </div>
           </div>
-          <div className="footer-note">
-            Evidence-based care.
-            <br />
-            Compassionate support.
-            <br />
-            Lasting change.
-          </div>
+          <a
+            className="footer-photo"
+            href="https://www.google.com/maps/search/?api=1&query=151+E.+80th+Street,+Suite+1B,+New+York,+NY+10075"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img
+              src="/assets/office-entrance.jpg"
+              alt="Building entrance at 151 E. 80th Street"
+            />
+          </a>
         </div>
         <div className="footer-bottom">
           <span>© 2026 Teel CBT.</span>
           <span>
-            <Link to="/privacy-policy">Privacy Policy</Link> &nbsp;&nbsp;{" "}
+            <Link to="/privacy-policy">Privacy Policy</Link>
             <Link to="/notice-of-privacy-practices">
               Notice of Privacy Practices
             </Link>
