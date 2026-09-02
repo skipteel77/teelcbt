@@ -8,6 +8,8 @@ import Services from './pages/Services'
 import Approach from './pages/Approach'
 import FAQ from './pages/FAQ'
 import Contact from './pages/Contact'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import NoticeOfPrivacyPractices from './pages/NoticeOfPrivacyPractices'
 import NotFound from './pages/NotFound'
 
 function ScrollToTop() {
@@ -31,6 +33,8 @@ export default function App() {
           <Route path="/approach" element={<Approach />} />
           <Route path="/faq" element={<FAQ />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route path="/notice-of-privacy-practices" element={<NoticeOfPrivacyPractices />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>
