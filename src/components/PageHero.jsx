@@ -8,5 +8,5 @@ export default function PageHero({ eyebrow, title, children }) {
         <div className="leaf-rule">❧</div>
       </div>
     </section>
-  )
+  );
 }

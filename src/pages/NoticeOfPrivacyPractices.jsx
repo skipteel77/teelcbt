@@ -365,7 +365,7 @@ export default function NoticeOfPrivacyPractices() {
               <div>
                 <p className="npp-eyebrow">PRIVACY CONTACT</p>
                 <h2>Questions about this notice?</h2>
-                <p>Dr. Karen Teel, Psychologist PLLC</p>
+                <p>Dr. Karen Teel, Psychologist</p>
                 <p>151 E. 80th St., Suite 1B, New York, NY 10075</p>
               </div>
               <div className="npp-contact-links">

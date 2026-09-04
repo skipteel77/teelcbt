@@ -1,17 +1,18 @@
-import { useEffect } from 'react'
+import { useEffect } from "react";
 
-const WIDGET_SRC = 'https://widget-cdn.simplepractice.com/assets/integration-1.0.js'
+const WIDGET_SRC =
+  "https://widget-cdn.simplepractice.com/assets/integration-1.0.js";
 
 export default function ContactWidget() {
   // SimplePractice binds the button when its script executes, so the tag is
   // added after mount and removed on unmount to re-run on client navigation.
   useEffect(() => {
-    const script = document.createElement('script')
-    script.src = WIDGET_SRC
-    script.async = true
-    document.body.appendChild(script)
-    return () => script.remove()
-  }, [])
+    const script = document.createElement("script");
+    script.src = WIDGET_SRC;
+    script.async = true;
+    document.body.appendChild(script);
+    return () => script.remove();
+  }, []);
 
   return (
     <div className="spwidget-button-wrapper">
@@ -26,7 +27,9 @@ export default function ContactWidget() {
         data-spwidget-contact=""
         data-spwidget-scope-global=""
         data-spwidget-autobind=""
-      >Click Here to Schedule a Consultation</a>
+      >
+        Click Here to Schedule a Consultation
+      </a>
     </div>
-  )
+  );
 }

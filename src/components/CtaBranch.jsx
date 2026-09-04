@@ -3,5 +3,5 @@ export default function CtaBranch() {
     <div className="cta-branch" aria-hidden="true">
       <img src="/assets/cta-branch.png" alt="" />
     </div>
-  )
+  );
 }

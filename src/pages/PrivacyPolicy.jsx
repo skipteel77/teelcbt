@@ -110,69 +110,69 @@ const sections = [
 export default function PrivacyPolicy() {
   return (
     <div className="legal-page">
-        <section className="legal-hero">
-          <div className="legal-shell legal-hero__inner">
-            <p className="legal-eyebrow">PRIVACY</p>
-            <h1>Privacy Policy</h1>
-            <div className="legal-divider">
+      <section className="legal-hero">
+        <div className="legal-shell legal-hero__inner">
+          <p className="legal-eyebrow">PRIVACY</p>
+          <h1>Privacy Policy</h1>
+          <div className="legal-divider">
+            <span />
+            <span className="legal-divider__leaf">❦</span>
+            <span />
+          </div>
+        </div>
+      </section>
+
+      <section className="legal-content">
+        <div className="legal-shell legal-document">
+          <p className="legal-effective">Effective: September 2026</p>
+
+          <p className="legal-intro">
+            Dr. Teel CBT respects your privacy. This Privacy Policy explains
+            what information may be collected when you visit this website, how
+            that information may be used, and the steps we take to protect it.
+            This website is intended to provide general information about the
+            practice and is not intended to replace confidential communication
+            with your therapist or other health care provider.
+          </p>
+
+          <div className="legal-section-list">
+            {sections.map((section) => (
+              <LegalSection
+                key={section.title}
+                icon={section.icon}
+                title={section.title}
+              >
+                {section.children}
+              </LegalSection>
+            ))}
+          </div>
+
+          <aside className="legal-contact-card">
+            <div className="legal-contact-card__branch" aria-hidden="true">
               <span />
-              <span className="legal-divider__leaf">❦</span>
+              <span />
+              <span />
               <span />
             </div>
-          </div>
-        </section>
 
-        <section className="legal-content">
-          <div className="legal-shell legal-document">
-            <p className="legal-effective">Effective: September 2026</p>
+            <div>
+              <h2>Questions about this policy?</h2>
+              <p>
+                Karen Teel, PhD
+                <br />
+                151 E. 80th Street, Suite 1B
+                <br />
+                New York, NY 10075
+              </p>
 
-            <p className="legal-intro">
-              Dr. Teel CBT respects your privacy. This Privacy Policy explains
-              what information may be collected when you visit this website, how
-              that information may be used, and the steps we take to protect it.
-              This website is intended to provide general information about the
-              practice and is not intended to replace confidential communication
-              with your therapist or other health care provider.
-            </p>
-
-            <div className="legal-section-list">
-              {sections.map((section) => (
-                <LegalSection
-                  key={section.title}
-                  icon={section.icon}
-                  title={section.title}
-                >
-                  {section.children}
-                </LegalSection>
-              ))}
+              <div className="legal-contact-details">
+                <a href="tel:+15165240822">516-524-0822</a>
+                <a href="mailto:drteel@teelcbt.com">drteel@teelcbt.com</a>
+              </div>
             </div>
-
-            <aside className="legal-contact-card">
-              <div className="legal-contact-card__branch" aria-hidden="true">
-                <span />
-                <span />
-                <span />
-                <span />
-              </div>
-
-              <div>
-                <h2>Questions about this policy?</h2>
-                <p>
-                  Karen Teel, PhD
-                  <br />
-                  151 E. 80th Street, Suite 1B
-                  <br />
-                  New York, NY 10075
-                </p>
-
-                <div className="legal-contact-details">
-                  <a href="tel:+15165240822">516-524-0822</a>
-                  <a href="mailto:drteel@teelcbt.com">drteel@teelcbt.com</a>
-                </div>
-              </div>
-            </aside>
-          </div>
-        </section>
+          </aside>
+        </div>
+      </section>
     </div>
   );
 }
