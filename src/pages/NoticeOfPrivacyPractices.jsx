@@ -68,7 +68,6 @@ function NppSection({ number, title, icon, children }) {
 export default function NoticeOfPrivacyPractices() {
   return (
     <>
-      <Header />
       <main className="npp-page">
         <section className="npp-hero">
           <div className="npp-shell">
