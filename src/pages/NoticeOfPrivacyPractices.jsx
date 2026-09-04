@@ -1,6 +1,4 @@
 import React from "react";
-import Header from "../components/Header";
-import Footer from "../components/Footer";
 import "../legal-pages.css";
 
 const noAuthUses = [
@@ -378,7 +376,6 @@ export default function NoticeOfPrivacyPractices() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   );
 }
