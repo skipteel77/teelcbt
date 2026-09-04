@@ -1,26 +1,54 @@
-import { Link } from 'react-router-dom'
-import { LeafIcon, CompassIcon, TargetIcon, SearchIcon, SproutIcon, SunIcon } from '../components/Icons'
-import CbtLoop from '../components/CbtLoop'
-import CtaBranch from '../components/CtaBranch'
+import { Link } from "react-router-dom";
+import {
+  LeafIcon,
+  CompassIcon,
+  TargetIcon,
+  SearchIcon,
+  SproutIcon,
+  SunIcon,
+} from "../components/Icons";
+import CbtLoop from "../components/CbtLoop";
+import CtaBranch from "../components/CtaBranch";
 
 export default function Home() {
-  return <>
-    <section className="hero">
-      <div className="hero-media"><img src="/assets/hero-karen.jpg" alt="Dr. Karen Teel seated in her office" /></div>
-      <div className="container hero-grid">
-        <div className="hero-copy">
-          <h1 className="display"><span>Practical</span> skills and<br/><span>compassionate</span> support<br/> for overcoming anxiety</h1>
-          <p>Evidence-based psychotherapy for children, teens, and adults</p>
-          <div className="hero-actions">
-            <Link className="btn btn-primary" to="/contact">Schedule a Consultation</Link>
-            <Link className="btn btn-secondary" to="/approach">Learn About My Approach</Link>
-          </div>
-          <div className="hero-credential"><span className="leaf" aria-hidden="true"></span><div><strong>Karen Teel, PhD.</strong><small>Licensed Psychologist</small></div></div>
+  return (
+    <>
+      <section className="hero">
+        <div className="hero-media">
+          <img
+            src="/assets/hero-karen.jpg"
+            alt="Dr. Karen Teel seated in her office"
+          />
         </div>
-      </div>
-    </section>
+        <div className="container hero-grid">
+          <div className="hero-copy">
+            <h1 className="display">
+              <span>Practical</span> skills and
+              <br />
+              <span>compassionate</span> support
+              <br /> for overcoming anxiety
+            </h1>
+            <p>Evidence-based psychotherapy for children, teens, and adults</p>
+            <div className="hero-actions">
+              <Link className="btn btn-primary" to="/contact">
+                Schedule a Consultation
+              </Link>
+              <Link className="btn btn-secondary" to="/approach">
+                Learn About My Approach
+              </Link>
+            </div>
+            <div className="hero-credential">
+              <span className="leaf" aria-hidden="true"></span>
+              <div>
+                <strong>Karen Teel, PhD.</strong>
+                <small>Licensed Psychologist</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
 
-    {/* <section className="soft-strip">
+      {/* <section className="soft-strip">
       <div className="container">
         <h2 className="strip-title">We can learn and practice skills together.</h2>
         <div className="three-grid">
@@ -31,18 +59,39 @@ export default function Home() {
       </div>
     </section> */}
 
-    <section className="section white compact-about">
-      <div className="container split">
-        <div className="image-card"><img src="/assets/about-session.jpg" alt="Dr. Teel working with a child in her office" /></div>
-        <div className="copy"><div className="eyebrow">About Dr. Teel</div><h2 className="h2">Therapy should be both <span className="sage-text">supportive and useful</span></h2>
-          <p>I’m Dr. Karen Teel, a Columbia University - trained psychologist specializing in Cognitive Behavioral Therapy. I provide a collaborative and compassionate environment where we can understand what’s getting in your way and develop practical strategies for meaningful change.</p>
-          <p>My approach combines evidence-based treatment with therapy tailored to you as an individual.</p>
-          <Link className="text-link" to="/about">Meet Dr. Teel →</Link>
+      <section className="section white compact-about">
+        <div className="container split">
+          <div className="image-card">
+            <img
+              src="/assets/about-session.jpg"
+              alt="Dr. Teel working with a child in her office"
+            />
+          </div>
+          <div className="copy">
+            <div className="eyebrow">About Dr. Teel</div>
+            <h2 className="h2">
+              Therapy should be both{" "}
+              <span className="sage-text">supportive and useful</span>
+            </h2>
+            <p>
+              I’m Dr. Karen Teel, a Columbia University - trained psychologist
+              specializing in Cognitive Behavioral Therapy. I provide a
+              collaborative and compassionate environment where we can
+              understand what’s getting in your way and develop practical
+              strategies for meaningful change.
+            </p>
+            <p>
+              My approach combines structured evidence-based treatment with
+              therapy tailored to you as an individual.
+            </p>
+            <Link className="text-link" to="/about">
+              Meet Dr. Teel →
+            </Link>
+          </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    {/* <section className="section white compact-top">
+      {/* <section className="section white compact-top">
       <div className="container">
         <div className="cbt-top">
           <div><div className="eyebrow">Cognitive Behavioral Therapy</div><h2 className="h2">What is CBT?</h2><p className="lead">CBT helps us understand how thoughts, feelings, and behaviors influence one another. Together, we identify patterns that aren’t serving you and develop practical ways to respond differently.</p></div>
@@ -56,26 +105,94 @@ export default function Home() {
       </div>
     </section> */}
 
-    <section className="path-banner">
-      <div><blockquote>Change doesn’t happen all at once<em>It happens one step at a time</em></blockquote><div className="divider"><img src="/assets/leaf-divider.png" alt="" /></div></div>
-    </section>
+      <section className="path-banner">
+        <div>
+          <blockquote>
+            Change doesn’t happen all at once
+            <em>It happens one step at a time</em>
+          </blockquote>
+          <div className="divider">
+            <img src="/assets/leaf-divider.png" alt="" />
+          </div>
+        </div>
+      </section>
 
-    <section className="white"><div className="container steps">
-      <article className="step"><div className="step-number">1</div><div><h3 className="h3">We’ll understand what’s happening</h3><p>We’ll talk about what brought you to therapy and decide what needs our attention.</p></div></article>
-      <article className="step"><div className="step-number">2</div><div><h3 className="h3">We’ll identify where you want to go</h3><p>We'll agree on your goals for treatment.</p></div></article>
-      <article className="step"><div className="step-number">3</div><div><h3 className="h3">We’ll work toward change</h3><p>You’ll develop skills and strategies to practice outside of our sessions.</p></div></article>
-    </div></section>
+      <section className="white">
+        <div className="container steps">
+          <article className="step">
+            <div className="step-number">1</div>
+            <div>
+              <h3 className="h3">We’ll understand what’s happening</h3>
+              <p>
+                We’ll talk about what brought you to therapy and decide what
+                needs our attention.
+              </p>
+            </div>
+          </article>
+          <article className="step">
+            <div className="step-number">2</div>
+            <div>
+              <h3 className="h3">We’ll identify where you want to go</h3>
+              <p>We'll agree on your goals for treatment.</p>
+            </div>
+          </article>
+          <article className="step">
+            <div className="step-number">3</div>
+            <div>
+              <h3 className="h3">We’ll work toward change</h3>
+              <p>
+                You’ll develop skills and strategies to practice outside of our
+                sessions.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
 
-    <section className="quote-section">
-      <div className="container quote-grid">
-        <div className="quote"><div className="quote-mark">“</div><div><blockquote>My goal isn’t simply to help you feel better during our sessions. It’s to help you develop skills that allow you to meet your goals.</blockquote><cite>— Dr. Karen Teel</cite></div></div>
-        <div className="quote-image"><img src="/assets/quote-plant.jpg" alt="A leafy plant beside a sunlit couch in the office" /></div>
-      </div>
-    </section>
+      <section className="quote-section">
+        <div className="container quote-grid">
+          <div className="quote">
+            <div className="quote-mark">“</div>
+            <div>
+              <blockquote>
+                My goal isn’t simply to help you feel better during our
+                sessions. It’s to help you develop practical skills you can use
+                in your everyday life.
+              </blockquote>
+              <cite>— Dr. Karen Teel</cite>
+            </div>
+          </div>
+          <div className="quote-image">
+            <img
+              src="/assets/quote-plant.jpg"
+              alt="A leafy plant beside a sunlit couch in the office"
+            />
+          </div>
+        </div>
+      </section>
 
-    <section className="cta">
-      <CtaBranch />
-      <div className="container cta-grid"><div><h2 className="h2">Ready to take the next step?</h2><p>Finding the right therapist matters. A brief consultation gives us an opportunity to talk about what you’re looking for and determine whether we're a good fit.</p></div><div className="cta-actions"><Link className="btn btn-primary" to="/contact">Schedule a Consultation</Link><small>Have a question first? <Link to="/contact">Contact Dr. Teel →</Link></small></div></div>
-    </section>
-  </>
+      <section className="cta">
+        <CtaBranch />
+        <div className="container cta-grid">
+          <div>
+            <h2 className="h2">Ready to take the next step?</h2>
+            <p>
+              Finding the right therapist matters. A brief consultation gives us
+              an opportunity to talk about what you’re looking for and determine
+              whether we're a good fit.
+            </p>
+          </div>
+          <div className="cta-actions">
+            <Link className="btn btn-primary" to="/contact">
+              Schedule a Consultation
+            </Link>
+            <small>
+              Have a question first?{" "}
+              <Link to="/contact">Contact Dr. Teel →</Link>
+            </small>
+          </div>
+        </div>
+      </section>
+    </>
+  );
 }
