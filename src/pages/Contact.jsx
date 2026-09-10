@@ -7,13 +7,13 @@ export default function Contact() {
   return (
     <>
       <PageHero eyebrow="Contact" title="Get in Touch">
-        Reach out to schedule a consultation or ask a practical question about
-        the practice.
+        Reach out to schedule a consultation or ask a question about the
+        practice
       </PageHero>
       <section className="section white">
         <div className="container contact-grid">
           <div>
-            <h2 className="h2">Let’s see if we’re a good fit.</h2>
+            <h2 className="h2">Let’s see if we’re a good fit</h2>
             <p className="lead">
               Reach out by phone or email, or use the secure form to share a bit
               about what you’re looking for. In-person and virtual options are
@@ -68,10 +68,10 @@ export default function Contact() {
       <section className="cta">
         <CtaBranch />
         <div className="container">
-          <h2 className="h2">Finding the right therapist matters.</h2>
+          <h2 className="h2">Finding the right therapist matters</h2>
           <p>
-            Once the scheduling workflow is finalized, this area can point
-            directly to a secure consultation booking page.
+            Reach out to schedule a consulation. If we're not a good fit I'll
+            help you find someone who is.
           </p>
         </div>
       </section>

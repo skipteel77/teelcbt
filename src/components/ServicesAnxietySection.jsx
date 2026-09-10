@@ -10,7 +10,7 @@ const groups = [
         title: "Excessive Worry / Obsessional Thinking",
         icon: "thoughts",
         blurb:
-          "When thoughts feel difficult to turn off, therapy can help you step out of repetitive worry, relate differently to uncertainty, and feel less controlled by your thoughts.",
+          "When thoughts feel difficult to turn off, CBT can help you step out of repetitive worry, relate differently to uncertainty, and feel less controlled by your thoughts.",
       },
       {
         title: "Nervousness",
@@ -22,7 +22,7 @@ const groups = [
         title: "High Self-Criticism / Perfectionism",
         icon: "person",
         blurb:
-          "Learn to recognize rigid standards and harsh self-judgment, while developing a more flexible and balanced way of approaching yourself and your goals.",
+          "Learn to recognize rigid standards and harsh self-judgment, while developing a more flexible and balanced way of approaching yourself and your goals, without sacrificing personal success.",
       },
     ],
   },
@@ -43,10 +43,16 @@ const groups = [
           "Gradually and safely face situations that have become frightening or restrictive, so fear has less influence over the choices you make.",
       },
       {
+        title: "Social Anxiety",
+        icon: "person",
+        blurb:
+          "Learn skills for overcoming the fear of judgement from others that leads to loneliness and/or isolation.",
+      },
+      {
         title: "Physical Panic Symptoms",
         icon: "heartPulse",
         blurb:
-          "Understand sensations such as a racing heart, dizziness, shortness of breath, or tightness, and learn to experience them with less fear and reactivity.",
+          "Understand sensations such as a racing heart, dizziness, shortness of breath, or chest tightness, and learn calming techniques.",
       },
     ],
   },
@@ -58,7 +64,7 @@ const groups = [
         title: "Compulsive Behaviors",
         icon: "cycle",
         blurb:
-          "Understand the cycle between intrusive thoughts, anxiety, and compulsive responses, and practice new ways of responding without reinforcing the cycle.",
+          "Understand the cycle between intrusive thoughts, anxiety, and rituals or checking behaviors, and practice new ways of responding without reinforcing the cycle.",
       },
       {
         title: "Tics / Repetitive Movements",

@@ -65,7 +65,7 @@ export default function Approach() {
             <div className="eyebrow">What sessions can feel like</div>
             <h2 className="h2">
               Warm, focused, and{" "}
-              <span className="sage-text">collaborative.</span>
+              <span className="sage-text">collaborative</span>
             </h2>
             <p>
               You can expect curiosity, structure, and practical feedback

@@ -42,10 +42,9 @@ export default function About() {
                 Psychology at Columbia University, where she teaches and
                 supervises doctoral students . Dr. Teel also holds a M.A. degree
                 in Developmental Psychology with a concentration in Risk,
-                Resilience and Development, from Teachers College, Columbia
-                University. Dr. Teel has co-authored articles in journals
-                including “Developmental Psychology”, and a chapter in “Treating
-                Adolescent Depression.”
+                Resilience and Development, from Columbia University. Dr. Teel
+                has co-authored articles in journals including “Developmental
+                Psychology”, and a chapter in “Treating Adolescent Depression.”
               </p>
             </div>
             <div className="image-card">
@@ -59,20 +58,23 @@ export default function About() {
             <div className="value">
               <div className="icon-badge text-icon">↔</div>
               <h3 className="h3">Collaborative</h3>
-              <p>We work together as a team to achieve your goals.</p>
+              <p>We work together as a team to achieve your goals</p>
             </div>
             <div className="value">
               <div className="icon-badge text-icon">◒</div>
               <h3 className="h3">Evidence-Based</h3>
               <p>
                 Structured approaches grounded in proven research and clinical
-                practice.
+                practice
               </p>
             </div>
             <div className="value">
               <div className="icon-badge text-icon">♡</div>
               <h3 className="h3">Compassionate</h3>
-              <p>A supportive, nonjudgmental space to grow and heal.</p>
+              <p>
+                A supportive, nonjudgmental space to practice new coping
+                strategies
+              </p>
             </div>
           </div>
           <div className="two-col-lists">
@@ -80,8 +82,8 @@ export default function About() {
               <h2 className="h3">Education &amp; Training</h2>
               <ul className="list-clean">
                 <li>
-                  Doctoral training — PhD in Clinical Psychology from Columbia
-                  University
+                  PhD in Clinical Psychology from Columbia University; MA in
+                  Developmental Psychology from Columbia University
                 </li>
                 <li>Specialized training in Cognitive Behavioral Therapy</li>
                 <li>
