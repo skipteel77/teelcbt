@@ -9,6 +9,7 @@ import {
 } from "../components/Icons";
 import CbtLoop from "../components/CbtLoop";
 import CtaBranch from "../components/CtaBranch";
+import Picture from "../components/Picture";
 
 export default function Home() {
   return (
@@ -28,7 +29,11 @@ export default function Home() {
               <span>compassionate</span> support
               <br /> for overcoming anxiety
             </h1>
-            <p>Evidence-based psychotherapy for children, teens, and adults</p>
+            <p>
+              Evidence-based psychotherapy for children, teens, and adults, with
+              in-person appointments on Manhattan’s Upper East Side and
+              telehealth available throughout New York State.
+            </p>
             <div className="hero-actions">
               <Link className="btn btn-primary" to="/contact">
                 Schedule a Consultation
@@ -65,6 +70,7 @@ export default function Home() {
             <img
               src="/assets/about-session.jpg"
               alt="Dr. Teel working with a child in her office"
+              loading="lazy"
             />
           </div>
           <div className="copy">
@@ -84,9 +90,14 @@ export default function Home() {
               My approach combines structured evidence-based treatment with
               therapy tailored to you as an individual.
             </p>
-            <Link className="text-link" to="/about">
-              Meet Dr. Teel →
-            </Link>
+            <div className="copy-links">
+              <Link className="text-link" to="/about">
+                Meet Dr. Teel →
+              </Link>
+              <Link className="text-link" to="/services">
+                See the concerns I commonly treat →
+              </Link>
+            </div>
           </div>
         </div>
       </section>
@@ -106,13 +117,19 @@ export default function Home() {
     </section> */}
 
       <section className="path-banner">
+        <Picture
+          pictureClassName="path-banner-photo"
+          src="/assets/stepping-stones.jpg"
+          alt=""
+          loading="lazy"
+        />
         <div>
           <blockquote>
             Change doesn’t happen all at once
             <em>It happens one step at a time</em>
           </blockquote>
           <div className="divider">
-            <img src="/assets/leaf-divider.png" alt="" />
+            <Picture src="/assets/leaf-divider.png" alt="" loading="lazy" />
           </div>
         </div>
       </section>
@@ -166,6 +183,7 @@ export default function Home() {
             <img
               src="/assets/quote-plant.jpg"
               alt="A leafy plant beside a sunlit couch in the office"
+              loading="lazy"
             />
           </div>
         </div>

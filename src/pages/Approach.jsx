@@ -77,6 +77,7 @@ export default function Approach() {
             <img
               src="/assets/session-desk.jpg"
               alt="Dr. Teel working with a child at a desk"
+              loading="lazy"
             />
           </div>
         </div>

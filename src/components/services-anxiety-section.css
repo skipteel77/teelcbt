@@ -32,6 +32,11 @@
     line-height: 1.85;
     color: #667882;
   }
+
+  .services-anxiety-intro .text-link {
+    display: inline-block;
+    margin-top: 18px;
+  }
   
   .services-groups-grid {
     display: grid;
