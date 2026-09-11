@@ -2,3 +2,6 @@
   X-Content-Type-Options: nosniff
   Referrer-Policy: strict-origin-when-cross-origin
   Permissions-Policy: camera=(), microphone=(), geolocation=()
+
+https://staging.teelcbt.com/*
+  X-Robots-Tag: noindex, nofollow, noarchive
