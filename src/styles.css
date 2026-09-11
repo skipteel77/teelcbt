@@ -93,6 +93,7 @@ button, input, textarea { font: inherit; }
 .image-card { overflow:hidden; border-radius:2px; box-shadow:var(--shadow); }
 .image-card img { width:100%; aspect-ratio:1.28/1; object-fit:cover; }
 .copy p { color:#59666a; }
+.copy-links { display:flex; flex-direction:column; align-items:flex-start; gap:12px; }
 
 .cbt-top { display:grid; grid-template-columns:1fr .95fr; gap:65px; align-items:center; }
 .cbt-loop { position:relative; width:min(100%,360px); aspect-ratio:360/330; justify-self:center; color:var(--teal); }
@@ -198,6 +199,7 @@ button, input, textarea { font: inherit; }
 .faq-a p { margin:0 0 12px; }
 .faq-a p:last-child { margin-bottom:0; }
 .faq-a strong { font-weight:600; color:#3b535c; }
+.faq-a a { color:inherit; text-decoration:underline; text-underline-offset:2px; }
 .faq-item.open .faq-a { display:block; }
 .faq-item.open .faq-q span:last-child { transform:rotate(45deg); }
 

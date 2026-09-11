@@ -28,7 +28,11 @@ export default function Home() {
               <span>compassionate</span> support
               <br /> for overcoming anxiety
             </h1>
-            <p>Evidence-based psychotherapy for children, teens, and adults</p>
+            <p>
+              Evidence-based psychotherapy for children, teens, and adults, with
+              in-person appointments on Manhattan’s Upper East Side and
+              telehealth available throughout New York State.
+            </p>
             <div className="hero-actions">
               <Link className="btn btn-primary" to="/contact">
                 Schedule a Consultation
@@ -84,9 +88,14 @@ export default function Home() {
               My approach combines structured evidence-based treatment with
               therapy tailored to you as an individual.
             </p>
-            <Link className="text-link" to="/about">
-              Meet Dr. Teel →
-            </Link>
+            <div className="copy-links">
+              <Link className="text-link" to="/about">
+                Meet Dr. Teel →
+              </Link>
+              <Link className="text-link" to="/services">
+                See the concerns I commonly treat →
+              </Link>
+            </div>
           </div>
         </div>
       </section>

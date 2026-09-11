@@ -53,7 +53,7 @@ export default function Footer() {
               </div>
               <div>
                 <PhoneIcon />
-                <span>516-524-0822</span>
+                <a href="tel:+15165240822">516-524-0822</a>
               </div>
               <div>
                 <EmailIcon />

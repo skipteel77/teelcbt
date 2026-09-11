@@ -6,9 +6,9 @@ import { LocationIcon, PhoneIcon, EmailIcon } from "../components/Icons";
 export default function Contact() {
   return (
     <>
-      <PageHero eyebrow="Contact" title="Get in Touch">
-        Reach out to schedule a consultation or ask a question about the
-        practice
+      <PageHero eyebrow="Contact" title="Contact Dr. Karen Teel">
+        Schedule a consultation for in-person therapy on Manhattan's Upper East
+        Side or virtual therapy in New York.
       </PageHero>
       <section className="section white">
         <div className="container contact-grid">
@@ -41,7 +41,7 @@ export default function Contact() {
                 <PhoneIcon />
                 <div>
                   <strong>Phone</strong>
-                  <span>516-524-0822</span>
+                  <a href="tel:+15165240822">516-524-0822</a>
                 </div>
               </div>
               <div className="contact-line">
@@ -70,7 +70,7 @@ export default function Contact() {
         <div className="container">
           <h2 className="h2">Finding the right therapist matters</h2>
           <p>
-            Reach out to schedule a consulation. If we're not a good fit I'll
+            Reach out to schedule a consultation. If we're not a good fit, I'll
             help you find someone who is.
           </p>
         </div>

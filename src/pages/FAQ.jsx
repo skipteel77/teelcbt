@@ -19,9 +19,9 @@ Insurance benefits vary, and I cannot guarantee whether your insurance company w
   ],
   [
     "How long are sessions and how often do we meet?",
-    `Sessions are typically 45-minutes in length. When we’re getting started, weekly sessions make the most sense.
+    `Sessions are typically 45 minutes in length. When we’re getting started, weekly sessions make the most sense.
     
-As we get closer to meeting your goals, we can have more time between appointments or have shorter sessions. The idea is that we move toward meeting less.`,
+As we get closer to meeting your goals, we can have more time between appointments or have shorter sessions. The goal is generally to move toward meeting less frequently as you make progress.`,
   ],
   [
     "What happens during the first session?",
@@ -29,18 +29,23 @@ As we get closer to meeting your goals, we can have more time between appointmen
   ],
   [
     "How do I schedule an appointment?",
-    "Contact me using the “schedule a consultation” button or email me at mailto:drteel@teelcbt.com",
+    "Contact me using the “schedule a consultation” button or email me at [drteel@teelcbt.com](mailto:drteel@teelcbt.com).",
   ],
 ];
 
 function renderInline(text) {
-  return text.split(/(\*\*[^*]+\*\*)/g).map((part, i) => {
+  return text.split(/(\*\*[^*]+\*\*|\[[^\]]+\]\([^)]+\))/g).map((part, i) => {
     const bold = part.match(/^\*\*([^*]+)\*\*$/);
-    return bold ? (
-      <strong key={i}>{bold[1]}</strong>
-    ) : (
-      <Fragment key={i}>{part}</Fragment>
-    );
+    if (bold) return <strong key={i}>{bold[1]}</strong>;
+    const link = part.match(/^\[([^\]]+)\]\(([^)]+)\)$/);
+    if (link) {
+      return (
+        <a key={i} href={link[2]}>
+          {link[1]}
+        </a>
+      );
+    }
+    return <Fragment key={i}>{part}</Fragment>;
   });
 }
 
