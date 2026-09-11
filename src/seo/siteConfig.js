@@ -18,12 +18,12 @@ export const siteConfig = {
 
 export const pageSeo = {
   "/": {
-    title: "Karen Teel, PhD | CBT Psychologist in New York | Teel CBT",
+    title: "Karen Teel, PhD | CBT Psychologist in New York City | Teel CBT",
     description:
-      "Evidence-based psychotherapy for children, teens, and adults with Dr. Karen Teel, a New York psychologist specializing in anxiety and Cognitive Behavioral Therapy.",
+      "Evidence-based CBT, ERP, and ACT for children, teens, and adults in New York City, with in-person care on Manhattan’s Upper East Side and telehealth throughout New York State.",
   },
   "/about": {
-    title: "About Dr. Karen Teel | Psychologist in New York | Teel CBT",
+    title: "About Dr. Karen Teel | Psychologist in New York City | Teel CBT",
     description:
       "Learn about Dr. Karen Teel, a Columbia-trained licensed clinical psychologist providing collaborative, evidence-based CBT for children, teens, and adults in New York.",
   },
@@ -33,7 +33,7 @@ export const pageSeo = {
       "Therapy for worry, panic, fears, perfectionism, compulsive behaviors, avoidance, tics, and related anxiety concerns with Dr. Karen Teel in New York.",
   },
   "/approach": {
-    title: "CBT, ERP & ACT Therapy Approach | Dr. Karen Teel",
+    title: "CBT Approach | Dr. Karen Teel",
     description:
       "Learn about Dr. Karen Teel's practical, collaborative approach using CBT and related evidence-based strategies to support meaningful change in everyday life.",
   },

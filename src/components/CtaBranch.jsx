@@ -1,7 +1,7 @@
 export default function CtaBranch() {
   return (
     <div className="cta-branch" aria-hidden="true">
-      <img src="/assets/cta-branch.png" alt="" />
+      <img src="/assets/cta-branch.png" alt="" loading="lazy" />
     </div>
   );
 }

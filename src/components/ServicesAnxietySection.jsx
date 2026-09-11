@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./services-anxiety-section.css";
 
 const groups = [
@@ -471,6 +472,9 @@ export default function ServicesAnxietySection() {
             Acceptance and Commitment Therapy (ACT) can help you understand
             these patterns and develop new ways of responding.
           </p>
+          <Link className="text-link" to="/approach">
+            Learn more about my treatment approach →
+          </Link>
         </div>
 
         <div className="services-groups-grid">

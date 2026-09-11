@@ -22,8 +22,8 @@ export default function About() {
                 and adults. She takes a collaborative approach to treatment that
                 is warm, empathic, and importantly, goal-oriented and
                 developmentally sensitive so that the work is tailored to each
-                individual’s unique need. Dr. Teel works using a style of
-                therapy called Cognitive Behavior Therapy (CBT), a short term,
+                individual’s unique needs. Dr. Teel works using a style of
+                therapy called Cognitive Behavioral Therapy (CBT), a short-term,
                 evidence-based therapy shown to be effective in helping people
                 with a wide range of challenges having to do with stress,
                 anxiety and mood. She also works with people who are struggling
