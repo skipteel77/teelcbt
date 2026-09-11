@@ -11,7 +11,7 @@ import Contact from "./pages/Contact";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import NoticeOfPrivacyPractices from "./pages/NoticeOfPrivacyPractices";
 import NotFound from "./pages/NotFound";
-import ComingSoon from "./pages/ComingSoon";
+import SEO from "./components/SEO";
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -22,25 +22,28 @@ function ScrollToTop() {
 }
 
 export default function App() {
-  return <ComingSoon />;
-  // return (
-  //   <>
-  //     <ScrollToTop />
-  //     <Header />
-  //     <main>
-  //       <Routes>
-  //         <Route path="/" element={<Home />} />
-  //         <Route path="/about" element={<About />} />
-  //         <Route path="/services" element={<Services />} />
-  //         <Route path="/approach" element={<Approach />} />
-  //         <Route path="/faq" element={<FAQ />} />
-  //         <Route path="/contact" element={<Contact />} />
-  //         <Route path="/privacy-policy" element={<PrivacyPolicy />} />
-  //         <Route path="/notice-of-privacy-practices" element={<NoticeOfPrivacyPractices />} />
-  //         <Route path="*" element={<NotFound />} />
-  //       </Routes>
-  //     </main>
-  //     <Footer />
-  //   </>
-  // )
+  return (
+    <>
+      <ScrollToTop />
+      <SEO />
+      <Header />
+      <main>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/approach" element={<Approach />} />
+          <Route path="/faq" element={<FAQ />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+          <Route
+            path="/notice-of-privacy-practices"
+            element={<NoticeOfPrivacyPractices />}
+          />
+          <Route path="*" element={<NotFound />} />
+        </Routes>
+      </main>
+      <Footer />
+    </>
+  );
 }

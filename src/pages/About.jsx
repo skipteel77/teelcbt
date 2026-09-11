@@ -38,13 +38,14 @@ export default function About() {
                 University, and completed her Postdoctoral Fellowship training
                 at the New York State Psychiatric Institute (NYSPI) of Columbia
                 University Medical Center. She is an Adjunct Assistant Professor
-                of Psychology in the department of Counseling andClinical
+                of Psychology in the department of Counseling and Clinical
                 Psychology at Columbia University, where she teaches and
-                supervises doctoral students . Dr. Teel also holds a M.A. degree
+                supervises doctoral students. Dr. Teel also holds a M.A. degree
                 in Developmental Psychology with a concentration in Risk,
-                Resilience and Development, from Columbia University. Dr. Teel
-                has co-authored articles in journals including “Developmental
-                Psychology”, and a chapter in “Treating Adolescent Depression.”
+                Resilience and Development from Columbia University. She earned
+                her B.A. from Barnard College. Dr. Teel has co-authored articles
+                in journals including “Developmental Psychology”, and a chapter
+                in “Treating Adolescent Depression.”
               </p>
             </div>
             <div className="image-card">
