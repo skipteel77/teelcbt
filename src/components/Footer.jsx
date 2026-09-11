@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { LocationIcon, PhoneIcon, EmailIcon } from "./Icons";
+import Picture from "./Picture";
 
 export default function Footer() {
   return (
@@ -8,15 +9,17 @@ export default function Footer() {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link className="footer-logo" to="/" aria-label="Teel CBT home">
-              <img
+              <Picture
                 className="footer-logo-mark"
                 src="/assets/logo-mark.png"
                 alt=""
+                loading="lazy"
               />
-              <img
+              <Picture
                 className="footer-logo-word"
                 src="/assets/logo-wordmark.png"
                 alt="Teel CBT"
+                loading="lazy"
               />
             </Link>
             <p>Dr. Karen Teel</p>
@@ -67,9 +70,10 @@ export default function Footer() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <img
+            <Picture
               src="/assets/office-entrance.jpg"
               alt="Building entrance at 151 E. 80th Street"
+              loading="lazy"
             />
           </a>
         </div>

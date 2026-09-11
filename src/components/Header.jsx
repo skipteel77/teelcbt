@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
+import Picture from "./Picture";
 
 const links = [
   ["/", "Home"],
@@ -21,7 +22,7 @@ export default function Header() {
     <header className="site-header">
       <div className="container nav">
         <Link className="brand" to="/" aria-label="Teel CBT home">
-          <img src="/assets/logo-horizontal.png" alt="Teel CBT" />
+          <Picture src="/assets/logo-horizontal.png" alt="Teel CBT" />
         </Link>
         <button
           className="menu-btn"

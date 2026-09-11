@@ -9,6 +9,7 @@ import {
 } from "../components/Icons";
 import CbtLoop from "../components/CbtLoop";
 import CtaBranch from "../components/CtaBranch";
+import Picture from "../components/Picture";
 
 export default function Home() {
   return (
@@ -69,6 +70,7 @@ export default function Home() {
             <img
               src="/assets/about-session.jpg"
               alt="Dr. Teel working with a child in her office"
+              loading="lazy"
             />
           </div>
           <div className="copy">
@@ -115,13 +117,19 @@ export default function Home() {
     </section> */}
 
       <section className="path-banner">
+        <Picture
+          pictureClassName="path-banner-photo"
+          src="/assets/stepping-stones.jpg"
+          alt=""
+          loading="lazy"
+        />
         <div>
           <blockquote>
             Change doesn’t happen all at once
             <em>It happens one step at a time</em>
           </blockquote>
           <div className="divider">
-            <img src="/assets/leaf-divider.png" alt="" />
+            <Picture src="/assets/leaf-divider.png" alt="" loading="lazy" />
           </div>
         </div>
       </section>
@@ -175,6 +183,7 @@ export default function Home() {
             <img
               src="/assets/quote-plant.jpg"
               alt="A leafy plant beside a sunlit couch in the office"
+              loading="lazy"
             />
           </div>
         </div>
